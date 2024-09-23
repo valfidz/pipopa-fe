@@ -36,11 +36,9 @@ function Footer() {
         <div>
           <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
           <div className="flex flex-col space-y-2">
-            <a href="#" className="text-gray-600 hover:text-blue-600">Sewa</a>
-            <a href="#" className="text-gray-600 hover:text-blue-600">Inspirasi</a>
+            <a href="#" className="text-gray-600 hover:text-blue-600">Home</a>
+            <a href="#" className="text-gray-600 hover:text-blue-600">About</a>
             <a href="#" className="text-gray-600 hover:text-blue-600">FAQ</a>
-            <a href="#" className="text-gray-600 hover:text-blue-600">Tentang</a>
-            <a href="#" className="text-gray-600 hover:text-blue-600">Pipopa Pro</a>
           </div>
         </div>
 
