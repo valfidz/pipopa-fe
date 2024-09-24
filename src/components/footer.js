@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -27,8 +28,8 @@ function Footer() {
 
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-4">
-            <a href="#"><img src="/fb.png" alt="Facebook" className='w-8' /></a>
-            <a href="#"><img src="/ig.png" alt="Instagram" className='w-8' /></a>
+            <Link to="#"><img src="/fb.png" alt="Facebook" className='w-8' /></Link>
+            <Link to="#"><img src="/ig.png" alt="Instagram" className='w-8' /></Link>
           </div>
         </div>
 
@@ -36,9 +37,10 @@ function Footer() {
         <div>
           <h2 className="text-2xl font-semibold mb-4 lg:text-3xl">Quick Links</h2>
           <div className="flex flex-col space-y-2">
-            <a href="#" className="text-gray-600 hover:text-blue-600">Home</a>
-            <a href="#" className="text-gray-600 hover:text-blue-600">About</a>
-            <a href="#" className="text-gray-600 hover:text-blue-600">FAQ</a>
+            <a href="/" className="text-gray-600 hover:text-blue-600">Home</a>
+            <a href="/about" className="text-gray-600 hover:text-blue-600">About</a>
+            <a href="/inspirations" className="text-gray-600 hover:text-blue-600">Inspirations</a>
+            <a href="/faq" className="text-gray-600 hover:text-blue-600">FAQ</a>
           </div>
         </div>
 

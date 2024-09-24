@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import { Home } from './pages/home';
 import { About } from './pages/about';
 import { Faq } from './pages/faq';
+import { Inspirations } from './pages/inspiration';
 import NotFound from './components/notfound';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -14,6 +14,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/faq' element={<Faq />} />
+          <Route path='/inspirations' element={<Inspirations />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>

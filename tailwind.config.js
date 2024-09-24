@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        jost: ['Jost', 'sans-serif']
+      },
+      colors: {
+        customBlue: '#045275'
+      }
+    },
   },
   plugins: [],
 }
