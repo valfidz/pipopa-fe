@@ -1,18 +1,18 @@
 'use client'
 
-import { useState } from 'react'
-import { Dialog, DialogPanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+// import { useState } from 'react'
+// import { Dialog, DialogPanel } from '@headlessui/react'
+// import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 export default function Hero() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+//   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div className="relative bg-white overflow-hidden lg:h-screen">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/pict1.jpg" // replace with your background image URL
+          src="/pict1.jpg"
           alt="Background"
           className="w-full h-full object-cover sm:object-[0px_-50px] md:object-[0px_-100px] lg:object-[0px_0px]"
         />
