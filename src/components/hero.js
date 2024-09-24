@@ -21,17 +21,17 @@ export default function Hero() {
 
       {/* Main Content */}
       <div className="relative z-10 px-4 py-16 lg:py-64 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-xl sm:max-w-2xl lg:max-w-4xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+        <div className="mx-auto max-w-xl sm:max-w-2xl lg:max-w-4xl">
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-8xl lg:text-left">
             Kalo bisa pinjem kenapa harus beli
           </h1>
-          <div className="mt-10 flex justify-center">
-            <div className="relative flex w-full px-6 py-4 max-w-lg items-center rounded-full bg-white">
-              <span className="pl-6 pr-2 py-3 text-gray-500">
+          <div className="mt-10">
+            <div className="flex w-full lg:w-5/6 items-center rounded-full bg-white py-2 px-2">
+              <span className="pl-6 pr-2 py-3 text-gray-500 flex-grow">
                 Cari & pakai barang apapun tanpa beli
               </span>
               <button
-                className="ml-auto rounded-full bg-teal-500 px-6 py-3 text-sm font-semibold text-white hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
+                className="rounded-full bg-teal-500 px-6 py-3 text-sm font-semibold text-white hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
               >
                 Browse Items
               </button>
