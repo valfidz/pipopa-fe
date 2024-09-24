@@ -9,7 +9,7 @@ function Footer() {
           {/* Logo */}
           <div className="mb-6">
             <img
-              src="https://via.placeholder.com/100x50" // Replace with actual logo URL
+              src="/logo_vertikal.jpg" // Replace with actual logo URL
               alt="Company Logo"
               className="w-24 h-auto"
             />
@@ -27,14 +27,14 @@ function Footer() {
 
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-4">
-            <a href="#"><img src="https://via.placeholder.com/20x20" alt="Facebook" /></a>
-            <a href="#"><img src="https://via.placeholder.com/20x20" alt="Instagram" /></a>
+            <a href="#"><img src="/fb.png" alt="Facebook" className='w-8' /></a>
+            <a href="#"><img src="/ig.png" alt="Instagram" className='w-8' /></a>
           </div>
         </div>
 
         {/* Second Section - Navigation Links */}
         <div>
-          <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
+          <h2 className="text-2xl font-semibold mb-4 lg:text-3xl">Quick Links</h2>
           <div className="flex flex-col space-y-2">
             <a href="#" className="text-gray-600 hover:text-blue-600">Home</a>
             <a href="#" className="text-gray-600 hover:text-blue-600">About</a>

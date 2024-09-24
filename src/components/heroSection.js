@@ -33,14 +33,14 @@ function HeroSection() {
       <div className="relative flex flex-col justify-center items-center">
         {/* Image 1 */}
         <img
-          src="https://via.placeholder.com/350x200"
-          alt="Tennis racket"
+          src="/pict4.jpg"
+          alt="BBQ"
           className="mb-4 rounded-lg shadow-lg w-full md:mb-8"
         />
         {/* Image 2 */}
         <img
-          src="https://via.placeholder.com/350x150"
-          alt="People playing tennis"
+          src="/pict5.jpg"
+          alt="VR kit"
           className="rounded-lg shadow-lg w-full"
         />
       </div>
