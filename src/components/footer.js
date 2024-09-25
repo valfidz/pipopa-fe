@@ -23,7 +23,7 @@ function Footer() {
             <p>Jl. Jenderal Sudirman</p>
             <p>Jakarta 12930</p>
             <p>info@pipopa.id</p>
-            <p>021 212 769 19</p>
+            <p>+628119150273</p>
           </div>
 
           {/* Social Media Icons */}
