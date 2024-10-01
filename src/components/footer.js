@@ -6,6 +6,7 @@ import { AlertSuccess } from './alertSuccess.js';
 import { AlertFailed } from './alertFailed.js';
 
 function Footer() {
+    const be_url = process.env.REACT_APP_BE_URL
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -36,7 +37,7 @@ function Footer() {
         setLoading(true)
 
         try {
-            axios.post('http://localhost:3030/api/sendmail', {
+            axios.post(`${be_url}/api/sendmail`, {
                 firstName,
                 lastName,
                 email,
