@@ -40,16 +40,16 @@ export default function Nav() {
 
         {/* Desktop Menu */}
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-lg text-white font-semibold leading-6 text-gray-900">
             Home
           </a>
-          <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/about" className="text-lg text-white font-semibold leading-6 text-gray-900">
             About
           </a>
-          <a href="/inspirations" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/inspirations" className="text-lg text-white font-semibold leading-6 text-gray-900">
             Inspirations
           </a>
-          <a href="/faq" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/faq" className="text-lg text-white font-semibold leading-6 text-gray-900">
             FAQ
           </a>
         </PopoverGroup>

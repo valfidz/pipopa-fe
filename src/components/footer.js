@@ -6,7 +6,7 @@ import { AlertSuccess } from './alertSuccess.js';
 import { AlertFailed } from './alertFailed.js';
 
 function Footer() {
-    const be_url = process.env.REACT_APP_BE_URL || 'http://localhost:5000'
+    const be_url = process.env.REACT_APP_BE_URL
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
