@@ -5,29 +5,25 @@ const FAQComponent = () => {
 
   const questions = [
     {
-      question: "What's the best thing about Switzerland?",
-      answer: "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Bagaimana cara menyewa barang di aplikasi Pipopa?",
+      answer: "Kamu bisa menyewa barang di aplikasi Pipopa dengan cara membuat akun terverifikasi, lalu masuk ke halaman produk untuk mulai menyewa barang",
     },
     {
-      question: "How do you make holy water?",
-      answer: "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora vitae odio inventore fuga aliquam nostrum quod porro. Delectus quia facere id sequi expedita natus.",   
+      question: "Apa saja syarat dan ketentuan untuk menyewa barang?",
+      answer: "Kamu hanya perlu melengkapi data-data yang diperlukan untuk menjadikan akun kamu akun yang terverifikasi, sehingga kamu bisa mulai menyewa barang",   
 
     },
     {
-      question: "What do you call someone with no body and no nose?",
-      answer: "Nothing.",
+      question: "Berapa lama durasi minimum dan maksimum penyewaan?",
+      answer: "Durasi minimum dan maksimum penyewaan barang ditentukan oleh pemilik barang",
     },
     {
-      question: "Why do you never see elephants hiding in trees?",
-      answer: "Because they're too big.",
+      question: "Bagaimana metode pembayaran yang tersedia?",
+      answer: "Metode pembayaran dapat dilakukan dengan menggunakan transfer virtual account dan e-wallet",
     },
     {
-      question: "Why can't you hear a pterodactyl go to the bathroom?",
-      answer: "Because they wipe with their wings.",
-    },
-    {
-      question: "Why did the invisible man turn down the job offer?",
-      answer: "He couldn't see himself doing it.",
+      question: "Apakah ada deposit yang harus dibayar?",
+      answer: "Deposit yang harus dibayarkan bergantung pada kebijakan pemilik barang",
     },
   ];
 
