@@ -26,7 +26,7 @@ export default function Hero() {
             Kalo bisa pinjem kenapa harus beli
           </h1>
           <div className="mt-10">
-            <div className="flex w-full lg:w-5/6 items-center rounded-full bg-white py-2 px-2">
+            {/* <div className="flex w-full lg:w-5/6 items-center rounded-full bg-white py-2 px-2">
               <span className="pl-6 pr-2 py-3 text-gray-500 flex-grow">
                 Cari & pakai barang apapun tanpa beli
               </span>
@@ -34,6 +34,16 @@ export default function Hero() {
                 className="rounded-full bg-teal-500 px-6 py-3 text-sm font-semibold text-white hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
               >
                 Browse Items
+              </button>
+            </div> */}
+            <div className="flex flex-col">
+              <h2 className="text-2xl sm:text-base md:text-xl font-medium text-slate-200">
+                Cari & pakai barang apapun tanpa beli
+              </h2>
+              <button
+                  className="rounded-full mt-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/5 bg-teal-500 px-6 py-3 text-sm font-semibold text-white hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
+                >
+                  <a href="/underconstruct">Browse Items</a>
               </button>
             </div>
           </div>
