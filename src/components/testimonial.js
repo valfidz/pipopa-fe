@@ -13,8 +13,8 @@ export default function Testimonial() {
             <figcaption className="mt-10">
               <img
                 alt=""
-                src="https://i.pravatar.cc/150?img=68"
-                className="mx-auto h-10 w-10 rounded-full"
+                src="/ceo.jpeg"
+                className="mx-auto h-20 w-20 rounded-full"
               />
               <div className="mt-4 flex items-center justify-center space-x-3 text-base">
                 <div className="font-semibold text-gray-900">Tangguh</div>
