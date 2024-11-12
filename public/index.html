@@ -49,5 +49,49 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+      <!-- Tambahkan script chatbot di sini -->
+    <script type="module">
+      import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+      Chatbot.init({
+        chatflowid: "d289f7f7-75e7-4580-93df-840614cc40fc",
+        apiHost: "https://jaka-sembung.app.flowiseai.com",
+        theme: {
+          button: {
+            backgroundColor: "#29e1bd",
+            right: 20,
+            bottom: 20,
+            size: "large",
+            iconColor: "white",
+            customIconSrc: "https://pipopa.id/logo_only_white.png"
+          },
+          chatWindow: {
+            welcomeMessage: "Halo... Apa yang popAI bisa bantu?",
+            backgroundColor: "#ffffff",
+            height: 700,
+            width: 400,
+            fontSize: 16,
+            poweredByTextColor: "#ffffff",
+            botMessage: {
+              backgroundColor: "#f7f8ff",
+              textColor: "#303235",
+              showAvatar: false,
+              avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png"
+            },
+            userMessage: {
+              backgroundColor: "#29e1bd",
+              textColor: "#ffffff",
+              showAvatar: false,
+              avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png"
+            },
+            textInput: {
+              placeholder: "Ketik disini...",
+              backgroundColor: "#ffffff",
+              textColor: "#303235",
+              sendButtonColor: "#29e1bd"
+            }
+          }
+        }
+      })
+    </script>
   </body>
 </html>
