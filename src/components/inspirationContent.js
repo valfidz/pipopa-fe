@@ -16,24 +16,50 @@ export default function ContentInspiration() {
       
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1679&amp;q=80" alt="" />
+                <img class="h-48 w-full object-cover" src="/party.jpg" alt="" />
+              </div>
+              <div class="flex flex-1 flex-col justify-between bg-white p-6">
+                <div class="flex-1">
+                  <p class="text-sm font-medium text-indigo-600">
+                    <Link to="#" class="hover:underline">Party</Link>
+                  </p>
+                  <Link to="/post/rent-the-perfect-party" class="mt-2 block">
+                    <p class="text-xl font-semibold text-gray-900">Rent the Perfect Party</p>
+                    <p class="mt-3 text-base text-gray-500">Planning a special occasion can be stressful, but it doesn't have to be. With Pipopa, you can rent everything you need to host the perfect party, from party equipment to decor.</p>
+                  </Link>
+                </div>
+                <div class="mt-6 flex items-center">
+                  <div class="ml-3">
+                    <div class="flex space-x-1 text-sm text-gray-500">
+                      <time datetime="2020-03-16">Nov 13, 2024</time>
+                      <span aria-hidden="true">·</span>
+                      {/* <span>6 min read</span> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div class="flex-shrink-0">
+                <img class="h-48 w-full object-cover" src="/appliances.jpg" alt="" />
               </div>
               <div class="flex flex-1 flex-col justify-between bg-white p-6">
                 <div class="flex-1">
                   <p class="text-sm font-medium text-indigo-600">
                     <Link to="#" class="hover:underline">Home Appliances</Link>
                   </p>
-                  <Link to="#" class="mt-2 block">
-                    <p class="text-xl font-semibold text-gray-900">10 Must-Have Items for Every Rental Home</p>
-                    <p class="mt-3 text-base text-gray-500">Are you tired of living in a rental home that feels empty and lacks essential items? Look no further! We have compiled a list of 10...</p>
+                  <Link to="/post/upgrade-your-home" class="mt-2 block">
+                    <p class="text-xl font-semibold text-gray-900">Upgrade Your Home, Rent the Rest</p>
+                    <p class="mt-3 text-base text-gray-500">Tired of the hassle and expense of owning appliances? Pipopa offers a convenient and cost-effective solution: appliance rental. By renting your appliances, you can enjoy the latest technology without the long-term commitment.</p>
                   </Link>
                 </div>
                 <div class="mt-6 flex items-center">
                   <div class="ml-3">
                     <div class="flex space-x-1 text-sm text-gray-500">
-                      <time datetime="2020-03-16">Sept 16, 2024</time>
+                      <time datetime="2020-03-10">Nov 13, 2024</time>
                       <span aria-hidden="true">·</span>
-                      <span>6 min read</span>
+                      {/* <span>4 min read</span> */}
                     </div>
                   </div>
                 </div>
@@ -42,50 +68,24 @@ export default function ContentInspiration() {
       
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1679&amp;q=80" alt="" />
-              </div>
-              <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                <div class="flex-1">
-                  <p class="text-sm font-medium text-indigo-600">
-                    <Link to="#" class="hover:underline">Lifestyle</Link>
-                  </p>
-                  <Link to="#" class="mt-2 block">
-                    <p class="text-xl font-semibold text-gray-900">The Benefits of Renting Instead of Buying</p>
-                    <p class="mt-3 text-base text-gray-500">The Benefits of Renting Instead of Buying In today's world, where convenience and sustainability are increasingly important,...</p>
-                  </Link>
-                </div>
-                <div class="mt-6 flex items-center">
-                  <div class="ml-3">
-                    <div class="flex space-x-1 text-sm text-gray-500">
-                      <time datetime="2020-03-10">Sept 10, 2024</time>
-                      <span aria-hidden="true">·</span>
-                      <span>4 min read</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div class="flex-shrink-0">
-                <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1679&amp;q=80" alt="" />
+                <img class="h-48 w-full object-cover" src="/uang.jpg" alt="" />
               </div>
               <div class="flex flex-1 flex-col justify-between bg-white p-6">
                 <div class="flex-1">
                   <p class="text-sm font-medium text-indigo-600">
                     <Link to="#" class="hover:underline">Entrepreneur</Link>
                   </p>
-                  <Link to="#" class="mt-2 block">
-                    <p class="text-xl font-semibold text-gray-900">How to Make Money Renting Out Your Unused Items</p>
-                    <p class="mt-3 text-base text-gray-500">Are you looking for a way to make some extra money? Do you have unused items lying around your house that you don't use anymore? Well,...</p>
+                  <Link to="/post/dapatkan-cash-sewakan-barang" class="mt-2 block">
+                    <p class="text-xl font-semibold text-gray-900">Dapetin cash! Sewakan barang tak terpakai di sekitar mu!</p>
+                    <p class="mt-3 text-base text-gray-500">Apakah Anda memiliki barang di sekitar yang jarang terpakai? tahukah Anda ada ribuan orang dekat anda yang saat ini mungkin membutuhkan barang tersebut tetapi...</p>
                   </Link>
                 </div>
                 <div class="mt-6 flex items-center">
                   <div class="ml-3">
                     <div class="flex space-x-1 text-sm text-gray-500">
-                      <time datetime="2020-02-12">Sept 12, 2024</time>
+                      <time datetime="2020-02-12">Nov 13, 2024</time>
                       <span aria-hidden="true">·</span>
-                      <span>11 min read</span>
+                      {/* <span>11 min read</span> */}
                     </div>
                   </div>
                 </div>
