@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const ref = useRef(null);
@@ -61,7 +62,7 @@ export default function Hero() {
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.8, delay: 1.4 }}
               >
-                <a href="/underconstruct">Browse Items</a>
+                <Link to="/underconstruct">Browse Items</Link>
               </motion.button>
             </div>
           </motion.div>
