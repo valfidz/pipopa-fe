@@ -1,16 +1,22 @@
+import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
+
 export default function HeadAbout() {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true, margin: "-100px" });
+    
     return (
       <div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
-        {/* Image with overlay */}
+        {/* Image with overlay - No animation */}
         <img
           alt="Company profile"
           src="/pict6.jpg"
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
         />
-        {/* Overlay */}
+        {/* Overlay - No animation */}
         <div className="absolute inset-0 bg-black opacity-50 -z-10" />
-  
-        {/* Decorative gradient shapes */}
+
+        {/* Decorative gradient shapes - No animation */}
         <div
           aria-hidden="true"
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -35,19 +41,33 @@ export default function HeadAbout() {
             className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
           />
         </div>
-  
-        {/* Content */}
+
+        {/* Animated Content */}
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            {/* Title */}
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-6xl">
+          <motion.div 
+            ref={ref}
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            transition={{ duration: 1.5 }}
+            className="mx-auto max-w-2xl lg:mx-0"
+          >
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ delay: 0.5, duration: 1.5, ease: "easeOut" }}
+              className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-6xl"
+            >
               Welcome to Pipopa
-            </h2>
-            {/* Description */}
-            <p className="mt-4 text-base leading-7 text-gray-300 sm:mt-6 sm:text-lg lg:text-xl">
+            </motion.h2>
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ delay: 1, duration: 1.5, ease: "easeOut" }}
+              className="mt-4 text-base leading-7 text-gray-300 sm:mt-6 sm:text-lg lg:text-xl"
+            >
               A Social platform with a sustainable & affordable way to access goods and lend them.
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </div>
       </div>
     )
